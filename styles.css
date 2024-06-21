@@ -35,6 +35,9 @@ body {
   padding: 16px;
 
   box-shadow: 0 25px 25px rgb(0, 0, 0, 4.77%);
+
+  display: flex;
+  flex-direction: column;
 }
 
 #container img {
@@ -43,11 +46,19 @@ body {
   border-radius: 10px;
 }
 
+.texts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 h1 {
   font-weight: 700;
   font-size: 22px;
   color: var(--dark-blue);
   text-align: center;
+  margin-top: 0;
 }
 
 p {
